@@ -4,25 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
 
-    <!--navigation-->
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <header class="page-header">
+        <a href="#!" class="brand fas fa-shopping-cart">&nbsp;Shopaholic</a>
+        <!--navigation-->
+        <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        </nav>
+        <nav class="toolbar">
+           <a href="#" class="far fa-heart"></a>
+           <a href="#" class="fas fa-dolly-flatbed"></a>
+           <a href="#" class="far fa-user"></a> 
+        </nav>
+    </header>
+
+    <section class="hero bg-cover bg-center py-5 mt-5" style="background: url(images/bg.jpg);">
+            <div class="container py-5 px-4">
+                <p>New Inspiration</p>
+                <h1>15% off on new season</h1>
+                <a href="" class="btn btn-primary">Browse collection</a>
+            </div>
+    </section>
+
+    <section id="catalog classcatalog">
+        <header>
+            <h2>Our <span>Products</span></h2>
+        </header>
+        <div class="product-container">
+            <div class="product">
+                <div class="image">
+                    <img src="images/product-5.jpg" alt="">
+                </div>
+                <div class="content"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <p>Hello World</p>
     <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas delectus assumenda quaerat reprehenderit! Nulla repudiandae, fugiat asperiores, odit aliquam consectetur quasi laboriosam amet officia nobis commodi nisi quaerat</div>
-    <footer>
+    <footer class="bg-dark text-white">
         <ul>
             <li><a href="faq.html">FAQ</a></li>
             <li><a href="about.html">About Us</a></li>
         </ul>
-        <p>&copy; 2023 All right reserved.</p>
-    </footer>
 
-    
+    <div class="border" style="border-color: black;">
+        <p>&copy; 2023 All right reserved.</p>
+    </div>
+    </footer>    
 </body>
 </html>
